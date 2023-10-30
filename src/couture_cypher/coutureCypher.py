@@ -1,6 +1,5 @@
 # D.Couture
 # 12/22/22
-# Introduction to Programming - Final
 
 import time
 from datetime import date
