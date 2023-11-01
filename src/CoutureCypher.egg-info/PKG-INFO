@@ -1,3 +1,16 @@
+Metadata-Version: 2.1
+Name: CoutureCypher
+Version: 0.0.2
+Summary: A Cypher
+Author-email: Dominic Couture <d.paul.couture@gmail.com>
+Project-URL: Homepage, https://github.com/mastermind-mayhem/CoutureCypher
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # CoutureCypher
 A two stage encoder made with a mix of a caesar ciphers.
 
@@ -8,13 +21,13 @@ To initialize call the class with and object to either decrypt or encrypt
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Couture-Cypher.
 
 ```bash
-pip install CoutureCypher
+pip install Couture-Cypher
 ```
 
 ## Utilization
 
 ```python
-from CoutureCypher import *
+from Couture-Cypher import *
 
 # Initializes with an initial string
 cipher = cypher('initial-string')
